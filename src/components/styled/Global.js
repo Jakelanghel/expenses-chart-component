@@ -25,7 +25,6 @@ const GlobalStyles = createGlobalStyle`
         background-color: var(--very-pale-orange);
 
     }
-    
 
     h1,
     h2,

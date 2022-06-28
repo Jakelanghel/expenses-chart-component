@@ -1,10 +1,10 @@
 import React from "react";
-import { StyledGraph } from "./styled/GraphContainer.Styled";
+import { StyledGraphContainer } from "../components/styled/GraphContainer.Styled";
 import Graph from "../components/Graph";
 
 const GraphContainer = (props) => {
   return (
-    <StyledGraph>
+    <StyledGraphContainer>
       <h1 className="title">Spending - Last 7 days</h1>
 
       <div className="container-graph">
@@ -20,7 +20,7 @@ const GraphContainer = (props) => {
           <p>from last month </p>
         </div>
       </div>
-    </StyledGraph>
+    </StyledGraphContainer>
   );
 };
 

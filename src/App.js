@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import GlobalStyles from "./components/styled/Global";
 import { StyledContainer } from "./components/styled/Container.Styled";
 import Balance from "./components/Balance";
 import GraphContainer from "./components/GraphContainer";
 import data from "./data.json";
-import { Bubble } from "react-chartjs-2";
 
 function App() {
   const allAmounts = data.map((i) => i.amount);
@@ -33,13 +32,13 @@ function App() {
   });
 
   return (
-    <div>
+    <main>
       <GlobalStyles />
       <StyledContainer>
         <Balance />
         <GraphContainer data={usrData} />
       </StyledContainer>
-    </div>
+    </main>
   );
 }
 

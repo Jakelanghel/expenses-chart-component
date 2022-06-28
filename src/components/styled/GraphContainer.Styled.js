@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-export const StyledGraph = styled.main`
-  padding: 1.5rem 2rem 2rem;
+export const StyledGraphContainer = styled.main`
+  padding: 1.5rem 2rem;
   margin-top: 1.5rem;
   border-radius: 15px;
   background: var(--white);
@@ -27,7 +27,7 @@ export const StyledGraph = styled.main`
     }
 
     .total {
-      font-size: 1.75rem;
+      font-size: 2rem;
       font-weight: 700;
       color: var(--dark-brown);
     }
